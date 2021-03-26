@@ -5,6 +5,7 @@ import "./App.scss";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+
 import Routes from "./routes/Routes";
 import { Bot, Portal, MediaCenter, Guide } from "./pages";
 import { PermissionType } from "./shared/types";
@@ -30,7 +31,7 @@ function App() {
         />
         <CustomRoute permission={[PermissionType.All]} exact title="Guide" path="/guide" component={Guide} />
         <CustomRoute permission={[PermissionType.All]} exact title="Bot" path="/bot" component={Bot} />
-        {/* <CustomRoute permission={[PermissionType.All]} exact path="/login" component={LogIn} title="Log In" /> */}
+        {/* <CustomRoute permission={[PermissionType.All]} exact path="/login" component={LogIn} title="Log In" /> */} 
         {/* <CustomRoute
           permission={[PermissionType.All]}
           exact
@@ -38,7 +39,7 @@ function App() {
           component={SingUp}
           title="Sing Up"
         /> */}
-        <CustomRoute permission={[PermissionType.All]} exact path="/" component={Portal} title="Portal" />
+       <CustomRoute permission={[PermissionType.All]} exact path="/" component={Portal} title="Portal" />
         <Route exact path="" component={Routes} />
       </Switch>
     </Router>

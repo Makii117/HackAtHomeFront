@@ -12,8 +12,6 @@ const Draw = () => {
     return (
       <Menu
         style={{ width: 50, height: 1000 }}
-        defaultSelectedKeys={['1']}
-        defaultOpenKeys={['sub1']}
         mode="inline"
       >
         <Menu.Item><img src={logo} alt="iSolutions"></img></Menu.Item>
