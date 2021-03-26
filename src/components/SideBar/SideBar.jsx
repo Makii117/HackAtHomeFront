@@ -1,6 +1,6 @@
 import React from 'react';
 import { Menu } from 'antd';
-import { AppstoreOutlined, MailOutlined, SettingOutlined } from '@ant-design/icons';
+import {  SettingOutlined } from '@ant-design/icons';
 import "./styles/sidebar.css";
 
 // icons

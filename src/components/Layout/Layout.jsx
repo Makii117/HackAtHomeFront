@@ -2,7 +2,6 @@ import React from 'react';
 import Sidebar from "../../components/SideBar/SideBar";
 import { Layout } from 'antd';
 import Draw from "../../elements/draw";
-import GuideList from "../../elements/guide/guideList";
 import './layout.css';
 
 import Topbar from "../Header/Topbar";

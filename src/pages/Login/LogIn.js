@@ -37,7 +37,7 @@ function LogIn(props){
             <Checkbox checked={this.state.autoLogin} onChange={this.changeAutoLogin}>
               Keep me logged in
             </Checkbox>
-            <a style={{ float: 'right' }} href="">
+            <a style={{ float: 'right' }} href="/">
               Forgot password
             </a>
           </div>
@@ -47,7 +47,7 @@ function LogIn(props){
             <span className="icon icon-alipay" />
             <span className="icon icon-taobao" />
             <span className="icon icon-weibo" />
-            <a style={{ float: 'right' }} href="">
+            <a style={{ float: 'right' }} href="/">
               Register
             </a>
           </div>
