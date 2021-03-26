@@ -3,6 +3,8 @@ import Sidebar from "../../components/SideBar/SideBar";
 import { Layout } from 'antd';
 import Draw from "../../elements/draw";
 import GuideList from "../../elements/guide/guideList";
+import "./portal.css";
+
 
 const { Header, Footer, Sider, Content } = Layout;
 
@@ -15,7 +17,9 @@ export const Portal = () => {
         <Sidebar></Sidebar>
         </Sider>
       <Layout>
-        <Header></Header>
+        <Header>
+          
+        </Header>
         <Content>content</Content>
         <Footer>All rights reserved.@whoamiTeam</Footer>
       </Layout>

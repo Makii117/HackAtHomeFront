@@ -11,10 +11,10 @@ const Draw = () => {
   
     return (
       <Menu
-        style={{ width: 50, height: 1000 }}
+        style={{ width: 50, height: 1000, background:"#a6d4fa" }}
         mode="inline"
       >
-        <Menu.Item><img src={logo} alt="iSolutions"></img></Menu.Item>
+        <Menu.Item></Menu.Item>
         <Menu.Item></Menu.Item>
        <Menu.Item></Menu.Item>
       </Menu>
