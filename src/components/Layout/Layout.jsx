@@ -12,7 +12,7 @@ const { Footer, Sider, Content } = Layout;
 export const Lout = (props) =>{
   
     return <div> 
-    <Layout style={{minHeight:"100vh"}}>
+    <Layout style={{minHeight:"10vh",margin:0}}>
       <Draw></Draw>
       <Sider>
         <Sidebar></Sidebar>
@@ -22,7 +22,7 @@ export const Lout = (props) =>{
         <Content >
           {props.children}
         </Content>
-        <Footer>All rights reserved.@whoamiTeam</Footer>
+        <Footer style={{margin:0, padding:0}}>All rights reserved.@whoamiTeam</Footer>
       </Layout>
     </Layout>
   </div>;

@@ -25,7 +25,7 @@ const SideBar = () => {
   };
     return (
       <div>
-      <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange} style={{ width: 200, height: 1000, paddingTop:150}}>
+      <Menu mode="inline" openKeys={openKeys} onOpenChange={onOpenChange} style={{ width: 200, height: 1000, paddingTop:0}}>
       <SubMenu key="sub1" icon={<HomeOutlined />} title="Navigation One">
         <Menu.Item key="1">Option 1</Menu.Item>
         <Menu.Item key="2">Option 2</Menu.Item>

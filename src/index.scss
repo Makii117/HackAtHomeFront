@@ -4,6 +4,8 @@ body {
       "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    display: flex;   flex-direction: column; /* creates rows out of the elements main and footer */   height: 100vh;    margin:0;
+    
   }
   
   code {
@@ -26,3 +28,5 @@ body {
     align-items: center;
     height: 100vh;
   }
+
+ 
