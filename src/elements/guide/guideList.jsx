@@ -9,7 +9,7 @@ export const GuideList = ()=>{
          {data.map((guide,key)=>{
         return(
           <div key={key}>
-      <GuideWindow id={guide.id} image={guide.image} title={guide.title}  description={guide.description} />
+      <GuideWindow id={guide.id} image={guide.image} title={guide.title}  description={guide.description} fulldesc={guide.fulldesc} />
       </div>
         )  
     })
