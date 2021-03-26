@@ -1,4 +1,4 @@
-import React,{ReactDOM} from "react";
+import React from "react";
 import "./Guide.scss";
 import GuideList from "../../elements/guide/guideList"
 
@@ -8,8 +8,8 @@ export const Guide = () =>{
   
 return (
     <>
- <Lout>
-   <GuideList/>
+ <Lout >
+   {<GuideList/>}
  </Lout>
     </>
 );

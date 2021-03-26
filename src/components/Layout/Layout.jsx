@@ -9,7 +9,8 @@ import Topbar from "../Header/Topbar";
 const { Footer, Sider, Content } = Layout;
 
 
-export const Lout = () =>{
+export const Lout = (props) =>{
+  
     return <div> 
     <Layout style={{minHeight:"100vh"}}>
       <Draw></Draw>
@@ -18,7 +19,9 @@ export const Lout = () =>{
         </Sider>
       <Layout>
         <Topbar></Topbar>
-        <Content>content</Content>
+        <Content >
+          {props.children}
+        </Content>
         <Footer>All rights reserved.@whoamiTeam</Footer>
       </Layout>
     </Layout>

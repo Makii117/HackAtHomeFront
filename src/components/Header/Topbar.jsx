@@ -1,14 +1,14 @@
 import React from 'react';
 
-import { Menu, Header} from 'antd';
+import { Layout, Menu, Breadcrumb } from 'antd';
 
-
+const { Header, Content, Footer } = Layout;
 
 export const Topbar = () =>{
 
     return(
-        <div className="Topbar">
-            <Header style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+        <div className="Topbar" style={{margin:"0rem 8rem 5rem 0rem"}}>
+            <Header style={{ position: 'fixed', zIndex: 1, width: '100%'  }}>
       <div className="logo" />
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']}>
         <Menu.Item key="1">nav 1</Menu.Item>
